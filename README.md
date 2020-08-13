@@ -43,26 +43,27 @@ git clone https://github.com/aurelios/proffy.git
 ```
 
 ### Start
-
-Entre no repositório clonado e em seu diretório correspondente ao projeto web (somente interface web no momento):
-```
-cd ./proffy/web
-```
-
 Instale as dependências e starte 🚀
 
-##### YARN
-```bash
-# Instala todas as dependências
-> yarn install 
-
-# Starta o servidor web para a plataforma Proffy
-> yarn start 
-
-# Mobile em emulador
- Instalar emulador de preferência
-> yarn global add expo-cli
-> expo client:install:android
+##### SERVER
+```
+cd ./proffy/server
+yarn install 
+yarn start 
+```
+##### WEB
+```
+cd ./proffy/web
+yarn install 
+yarn start 
+```
+##### MOBILE
+Após instalação de emulador de sua preferência:
+```
+cd ./proffy/mobile
+yarn global add expo-cli
+expo client:install:android
+expo start
 ```
 
 
