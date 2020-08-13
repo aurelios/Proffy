@@ -19,16 +19,17 @@ Proffy foi construído com as seguintes techs:
 - [Typescript](https://www.typescriptlang.org/)
 - [React](https://pt-br.reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
-
- - web	
-	react-router-dom
- - server
-	express
-	knex
-	sqlite3
+	
+## ⚙ Estrutura
+- web	
+	* react-router-dom
+- server
+	* express
+	* knex
+	* sqlite3
  - mobile
-	expo
-	axios
+	* expo
+	* axios
 
 ## ⚙ Instalação e Start
 
